@@ -14,7 +14,7 @@ Localize your cat  at home with BLE beacon, ESP32s, and Machine Learning
   - [On the server](#on-the-server)
     - [0. Data source](#0-data-source)
     - [1. Python environment](#1-python-environment)
-    - [2. Program for cat localization prediction](#2-program-for-cat-localization-prediction)
+    - [2. Program for cat localization prediction](#2-program-for-localization-prediction)
 - [Training and testing of ML models](#training-and-testing-of-ml-models)
   - [Data collection](#data-collection)
   - [Algorithms evaluation and models training](#algorithms-evaluation-and-models-training)
@@ -97,13 +97,13 @@ I used Python 3.8.
 
 Sample conda environment can be impotred by issuing (this is a single time procedure):
 ```
-conda env create -f cat-localizer.yml
+conda env create -f localizer.yml
 ```
 
 and activated by:
 
 ```
-conda activate cat-localizer
+conda activate localizer
 ```
 
 Training of ML models can be done on any computer (eg laptop) and next models transfered to the main server. Remember to keep the same modules version (use conda environment). See the next section on model training.
